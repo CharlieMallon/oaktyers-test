@@ -1,9 +1,10 @@
 import React from "react";
+import styles from "./NavBar.module.css";
 
 const NavBar = () => {
     return (
-        <div>
-            <h1>
+        <div className={styles.main}>
+            <h1 className={styles.textStyle}>
                 Oaktyres Test
             </h1>
         </div>
