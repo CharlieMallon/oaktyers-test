@@ -1,19 +1,16 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./Pagination.module.css";
 
 
-const Pagination = () => {
-    const [number, setNumber] = useState('');
+const Pagination = ({setNumber, setSize}) => {
       const handleChangeNumber = (event) => {
         setNumber(event.target.value);
       };
-    const [size, setSize] = useState('');
+
       const handleChangeSize = (event) => {
         setSize(event.target.value);
       };
     
-      //can return 0, could cause issues
-      console.log(number, size)
     return (
         <div className={styles.main}>
             <input type="number" placeholder="page number" onChange={handleChangeNumber} />
