@@ -27,7 +27,7 @@ const SearchPage = () => {
     return (
         <div className = {styles.main}>
             < Pagination setNumber={setNumber} number={number} setSize={setSize} size={size}/>
-            <h2>Beer</h2>
+            <h2 style={{margin: '10px'}}>Beer</h2>
             < SearchResults data={data}/>
         </div>
     )
