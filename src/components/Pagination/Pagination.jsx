@@ -25,19 +25,19 @@ const Pagination = ({setNumber, number, setSize, size}) => {
         <div className={styles.main}>
             <input 
               className={styles.input} 
-              id='number' 
+              id="number" 
               type="number" 
               placeholder="Page Number" 
               value={number}
-              min='1'
+              min="1"
               onChange={handleChangeNumber} />
             <input 
               className={styles.input} 
-              id='size' 
+              id="size" 
               type="number" 
               placeholder="Page Size" 
               value={size}
-              min='1'
+              min="1"
               onChange={handleChangeSize}/>
         </div>
     )

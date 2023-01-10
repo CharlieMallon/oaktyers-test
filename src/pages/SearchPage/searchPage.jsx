@@ -6,9 +6,9 @@ import styles from "./SearchPage.module.css"
 
 
 const SearchPage = () => {
-    const [number, setNumber] = useState('1');
-    const [size, setSize] = useState('25');
-    const [data, setData] = useState('')
+    const [number, setNumber] = useState("1");
+    const [size, setSize] = useState("25");
+    const [data, setData] = useState("")
 
     console.log(number, size)
 
@@ -27,7 +27,7 @@ const SearchPage = () => {
     return (
         <div className = {styles.main}>
             < Pagination setNumber={setNumber} number={number} setSize={setSize} size={size}/>
-            <h2 style={{margin: '10px'}}>Beer</h2>
+            <h2 style={{margin: "10px"}}>Beer</h2>
             < SearchResults data={data}/>
         </div>
     )
