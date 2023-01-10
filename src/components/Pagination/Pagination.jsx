@@ -25,8 +25,8 @@ const Pagination = ({setNumber, setSize}) => {
     
     return (
         <div className={styles.main}>
-            <input id='number' type="number" placeholder="page number" onChange={handleChangeNumber} />
-            <input id='size' type="number" placeholder="page size" onChange={handleChangeSize}/>
+            <input className={styles.input} id='number' type="number" placeholder="Page Number" onChange={handleChangeNumber} />
+            <input className={styles.input} id='size' type="number" placeholder="Page Size" onChange={handleChangeSize}/>
         </div>
     )
 }
