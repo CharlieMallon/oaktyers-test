@@ -3,7 +3,7 @@ Oaktyres test
 For this test we want you to recreate a view using react, for styling you should use pure css or sass.
 This is what the react application should look like
 
-![ScreenShot](ScreenShot.jpg)
+![ScreenShot](ScreenShot.png)
 
 For the data, you can find it at https://punkapi.com/documentation/v2. The JSON attributes required are the name, tagline, and image_url. This will be used to create an array of JSX card elements as seen on the web page.
 To make the API call you can use Axios
