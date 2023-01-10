@@ -1,8 +1,11 @@
 .main{
     width: 100%;
-    background-color: blue;
+    background-color: darkblue;
+    padding: 10px;
 }
 
 .textStyle{
     color: white;
+    margin: 0px;
+    font-weight: lighter;
 }
