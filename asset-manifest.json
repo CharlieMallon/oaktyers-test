@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "//oaktyers-test/static/css/main.c67ba551.css",
-    "main.js": "//oaktyers-test/static/js/main.a33f3021.js",
-    "static/js/787.01c83c0d.chunk.js": "//oaktyers-test/static/js/787.01c83c0d.chunk.js",
-    "index.html": "//oaktyers-test/index.html",
-    "main.c67ba551.css.map": "//oaktyers-test/static/css/main.c67ba551.css.map",
-    "main.a33f3021.js.map": "//oaktyers-test/static/js/main.a33f3021.js.map",
-    "787.01c83c0d.chunk.js.map": "//oaktyers-test/static/js/787.01c83c0d.chunk.js.map"
+    "main.css": "/oaktyers-test/static/css/main.c67ba551.css",
+    "main.js": "/oaktyers-test/static/js/main.6b60765b.js",
+    "static/js/787.01c83c0d.chunk.js": "/oaktyers-test/static/js/787.01c83c0d.chunk.js",
+    "index.html": "/oaktyers-test/index.html",
+    "main.c67ba551.css.map": "/oaktyers-test/static/css/main.c67ba551.css.map",
+    "main.6b60765b.js.map": "/oaktyers-test/static/js/main.6b60765b.js.map",
+    "787.01c83c0d.chunk.js.map": "/oaktyers-test/static/js/787.01c83c0d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c67ba551.css",
-    "static/js/main.a33f3021.js"
+    "static/js/main.6b60765b.js"
   ]
 }
