@@ -6,7 +6,6 @@ import styles from "./SearchPage.module.css"
 
 
 const SearchPage = () => {
-    // result cards go here
     const [number, setNumber] = useState('1');
     const [size, setSize] = useState('25');
     const [data, setData] = useState('')
